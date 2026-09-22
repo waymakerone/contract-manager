@@ -4,18 +4,54 @@
   "description": "Track contracts, monitor renewal dates, store documents, and automate reminders — powered by Commander Tables, Documents, Calendar, and Automations. Replaces Ironclad, Juro, and ContractSafe.",
   "category": "tool",
   "framework": "react",
-  "tags": ["react", "typescript", "contracts", "legal", "renewals", "compliance", "documents", "calendar"],
+  "tags": [
+    "react",
+    "typescript",
+    "contracts",
+    "legal",
+    "renewals",
+    "compliance",
+    "documents",
+    "calendar"
+  ],
   "is_featured": true,
   "difficulty": "intermediate",
   "estimated_time": "3-4 hours",
-  "commander_tools": ["Tables", "Documents", "Calendar", "Email/Journeys", "Contacts", "Automations"],
+  "commander_tools": [
+    "Tables",
+    "Documents",
+    "Calendar",
+    "Email/Journeys",
+    "Contacts",
+    "Automations"
+  ],
   "app_type": "ex",
   "sections": [
-    { "id": "contract-register", "name": "Contract Register", "purpose": "All contracts in a filterable table with status badges, value, counterparty, dates, and type" },
-    { "id": "contract-detail", "name": "Contract Detail", "purpose": "Full contract view with document preview, milestones timeline, key dates, and action buttons" },
-    { "id": "renewal-timeline", "name": "Renewal Timeline", "purpose": "Calendar/timeline view of upcoming renewals and milestones synced to Commander Calendar" },
-    { "id": "reminders", "name": "Reminders", "purpose": "Automated email reminders for renewals, notice periods, and milestone deadlines" },
-    { "id": "dashboard", "name": "Dashboard", "purpose": "Overview: total contracts, active value, expiring soon, by type/department, renewal timeline" }
+    {
+      "id": "contract-register",
+      "name": "Contract Register",
+      "purpose": "All contracts in a filterable table with status badges, value, counterparty, dates, and type"
+    },
+    {
+      "id": "contract-detail",
+      "name": "Contract Detail",
+      "purpose": "Full contract view with document preview, milestones timeline, key dates, and action buttons"
+    },
+    {
+      "id": "renewal-timeline",
+      "name": "Renewal Timeline",
+      "purpose": "Calendar/timeline view of upcoming renewals and milestones synced to Commander Calendar"
+    },
+    {
+      "id": "reminders",
+      "name": "Reminders",
+      "purpose": "Automated email reminders for renewals, notice periods, and milestone deadlines"
+    },
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "purpose": "Overview: total contracts, active value, expiring soon, by type/department, renewal timeline"
+    }
   ],
   "design": {
     "colorPalette": "Trust — teal (#0F766E) primary, white background, green for active, amber for expiring, red for expired",
@@ -26,5 +62,13 @@
   "starter_prompt": "I want to build a contract manager using the WaymakerOS Contract Manager blueprint. Use host_blueprint_get with blueprint_id \"contract-manager\" to get the full blueprint, then guide me through building it.",
   "seo_title": "Contract Manager App Template — Build with AI | WaymakerOS",
   "seo_description": "Build a custom contract management system with renewal tracking, document storage, milestones, and automated reminders. Replaces Ironclad — built on your data, in your workspace.",
-  "seo_keywords": ["contract management app template", "contract tracker builder", "renewal management app AI"]
+  "seo_keywords": [
+    "contract management app template",
+    "contract tracker builder",
+    "renewal management app AI"
+  ],
+  "topics": [
+    "legal",
+    "operations"
+  ]
 }
